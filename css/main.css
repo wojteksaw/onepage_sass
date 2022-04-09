@@ -20,7 +20,26 @@ time, mark, audio, video {
 }
 
 *, *::before, *::after {
-  box-sizing: saborder-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Italianno", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 2.8rem;
+  padding: 10px;
+}
+
+a {
+  color: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */
